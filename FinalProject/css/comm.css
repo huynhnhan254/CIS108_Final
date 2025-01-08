@@ -1,0 +1,75 @@
+/*
+	Your name: Ngoc Nhan Huynh
+	File Name: comm.css
+	Date: 03/02/2023
+*/
+.grid > table{
+	width: 100%;
+}
+
+table{
+	border-collapse: collapse;
+	border: 1px solid black; 
+	width: 70%;
+	margin-left: 20%;
+	margin-top: 10%;
+}
+
+article ul li {
+	padding: 1%;
+}
+
+article table {
+	margin: 3%;
+}
+
+th{
+	border: 1px solid black;
+	width: 25px;
+	height: 50px;
+	
+}
+
+th > select {
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+	background-color: #F5EBEB;
+}
+
+
+td{
+	border: 1px solid black;
+}
+
+td > ul{
+	list-style: square inside;
+	margin: 5%;
+}
+
+td > ul li {
+	padding: 2%;
+}
+
+.goods{
+	margin: 2%;
+}
+
+button {
+	margin-left: 20%;
+	margin-top: 10%;
+	padding: 14px 90px;
+}
+
+div.fixed{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 10%;
+	left: 0;
+	right: 0;
+}

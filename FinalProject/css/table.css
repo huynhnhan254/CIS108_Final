@@ -1,0 +1,41 @@
+/*
+	Your name: Ngoc Nhan Huynh
+	File Name: styles.css
+	Date: 03/02/2023
+*/
+
+/* Style rules for table*/
+
+.member{
+	table-layout: auto;
+	width: 70%;
+	margin: 5% 15%;
+	font-size: 25px;
+	padding: 2%;
+	border-collapse: collapse;
+}
+
+.member tr{
+	height: 75px;
+}
+
+#first-column{
+	font-weight: bold;
+	background-color: #D8D8D8;
+	font-size: 20px;
+	padding: 0 1%;
+	
+}
+
+#second-column {
+	text-align: center;
+	color: #D0C9C0;
+	border-bottom: 1px solid #B09B71;
+}
+
+#third-column {
+	text-align: center;
+	background-color: #EEEEEE;
+	color: #B09B71;
+	border-bottom: 1px solid #B09B71;
+}

@@ -1,0 +1,14 @@
+/*
+	Your name: Ngoc Nhan Huynh
+	File Name: reset.css
+	Date: 03/02/2023
+*/
+
+/* CSS Reset */
+
+body, header, nav, main, footer, img, h1, h2, h3, h4, h5, h6, section,
+fieldset, article, aside {
+    margin: 0;
+    padding: 0;
+    border: 0;
+   }

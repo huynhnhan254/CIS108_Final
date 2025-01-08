@@ -1,0 +1,440 @@
+/*
+	Your name: Ngoc Nhan Huynh
+	File Name: styles.css
+	Date: 03/02/2023
+*/
+
+/* Style rules for header*/
+.header{
+	text-align: center;
+	background-image: url("../images/home.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	max-width: 100%;
+	height: 500px;
+}
+
+.headertext {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	bottom: 40%;
+	color: #B09B71;
+	font-size: 50px;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0, 0.8);
+	
+	border: 3px solid #f1f1f1;
+	padding: 2%;
+}
+
+
+/* Style rules for body and images */
+body {
+    background-color: #FEFBF6;
+    }
+
+.container{
+	background-color: #F5EBEB;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+
+*, *::after, *::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+}
+
+/* Style rule for header */
+body > header {
+	font-family: 'Raleway', sans-serif;
+	color: #000000;
+}
+
+/* Style rules for navbar*/
+
+
+/* Style rules for main content */
+main {
+    padding: 2%;
+    font-family: 'Raleway', sans-serif;
+   }
+
+main p {
+    font-size: 1.25em;
+    }
+
+main h3 {
+    padding-top: 2%;
+	font-family: 'Raleway', sans-serif;
+    }
+
+
+
+article {
+    padding: 2%;
+}
+
+a:link {
+	text-decoration: none;
+	color: #19A7CE;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+/* Style rules for class and id selectors */
+
+#contact {
+    text-align: center;
+	color: #C8B6A6;
+	margin: 5%;
+	font-family: 'Raleway', sans-serif;
+}
+
+#contact h1{
+	color: #675D50;
+	font-size: 3.5em;
+}
+
+.egg{
+	padding: 2%;
+	font-family: 'Raleway', sans-serif;
+ }
+ 
+.egg img{
+	float: right;
+	width: 20%;
+	margin-right: 4%;
+}
+
+.egg h1{
+	text-align: center;
+	margin-bottom: 2%;
+	font-size: 250%;
+}
+
+.egg p, .egg a{
+	padding: 1%;
+	margin: 0 4%;
+}
+
+
+.jumbotron{
+	border-radius: 25px;
+	border: 1px solid;
+	padding: 5%;
+	margin: 1%;
+	background-image: url("../images/membership.png");
+	background-color: #ccccc;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: left;
+	text-align: right;
+}
+
+.jumbotron > button{
+	margin: 2% 0;
+	padding: 1%;
+	border-radius: 15px;
+	transition: transform 0.5s;
+}
+
+.jumbotron > button > a{
+	text-decoration: none;
+	color: #ccccc;
+}
+
+.jumbotron > button:hover {
+	background-color: #B09B71;
+	color: white;
+	transform: rotateY(360deg);
+}
+
+
+	/* Style Rules for figure*/
+	
+#artwork{
+	display: flex;
+	
+}
+.column {
+  -ms-flex: 35%; /* IE10 */
+  flex: 35%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+#artwork figure, #mousepad, #shirt{
+	position: relative;
+    max-width: 100%;
+    margin: 5%;
+    box-sizing: border-box;
+}
+
+#artwork figure img{
+	max-width: 100%;
+	margin: 0;
+	display: block;
+	border-radius: 15px;
+}
+
+#artwork figcaption{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	border-radius: 15px;
+}
+
+#artwork figure a:hover{
+	text-decoration: none;
+	position: relative;
+	bottom: 5%;
+}
+
+#artwork figure a:link figcaption{
+	opacity: 0;
+}
+
+#artwork figure a:visited figcaption{
+	opacity: 0;
+	
+}
+
+#artwork figure a:hover figcaption{
+	opacity: 1;
+}
+
+#artwork figure a:active figcaption{
+	opacity: 0;
+}
+
+figcaption {
+    position: relative;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.2); 
+    color: #fff;
+    width: 100%;
+    padding: 5% 0;
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1.2em;
+            }
+
+.gallery{
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 25px;
+	font-weight: bold;
+	font-size: 1.5em;
+	font-style: italic;
+	padding: 5%;
+	margin: 1% 5% 5% 5%;
+	background-color: #B09B71;
+	box-shadow: 5px 10px rgba(0,0,0,0.8);
+}
+
+.flex{
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.right{
+	flex: 1 5 200px;
+    order: 50;
+}
+
+.goods{
+	flex: 5 1 281px;
+	display: grid;
+	
+}
+
+.goods button {
+	margin: 0 5% 2% 5%;
+	padding: 1%;
+	border-radius: 15px;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+section.goods{
+	border: 1px solid black;
+	margin: 2% 5%;
+	background-color: #F9F5EB;
+}
+section.goods h1{
+	text-align: center;
+	margin-top: 2%;
+	font-size: 3.5em;
+}
+
+#mousepad, #shirt {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 20px;
+}
+
+#price{
+	text-align: left;
+	font-weight: bold;
+	padding: 1%;
+	color: black;
+}
+
+#item{
+	text-align: left;
+	font-weight: lighter;
+	padding: 1%;
+	color: black;
+}
+/* Style rules for form and check box*/
+fieldset{
+	margin: 2%;
+	margin-left: 20%;
+}
+
+legend{
+	font-size: 1.5em;
+	color: rgba(0,0,0,0.8);
+	font-family: 'Raleway', sans-serif;
+
+}
+
+label{
+	display: inline-block;
+	font-size: 0.7em;
+	position: relative;
+	margin-right: .5em;
+	padding-top: 3.5em;
+	color: rgba(0,0,0,0.8);
+}
+
+input[type=name]{
+	padding: 12px 20px;
+	margin: 8px 1px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	width: 39%;
+}
+
+input[type=name]#lName{
+	margin-left: 1%;
+}
+
+input[type=text], textarea{
+	width: 80%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=submit]{
+	background-color: #F6F1E9;
+	color: black;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: 1px solid rgba(0,0,0,0.8);
+	border-radius: 4px;
+	cursor: pointer;
+	margin-left: 20%;
+	margin-bottom: 5%;
+	font-family: Monaco, sans-serif;
+}
+
+input[type=submit]:hover {
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+}
+
+input[name=message]{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+select{
+	margin-top: 5%;
+	margin-left: 5%;
+	padding: 2%;
+}
+
+
+/* Style rules for footer content */
+
+footer {
+	clear: both;
+    text-align: center;
+    font-size: 0.85em;
+    background: rgba(0,0,0,0.8);
+	color: #f6eee4;
+	width: 100%;
+   }
+   
+footer nav ul, footer #footer {
+   float: left;
+   padding: 20px 30px;
+   width: 20%;
+   list-style: none;
+}
+
+footer #footer {
+   float: left;
+   padding: 20px;
+   width: 20%;
+}
+.social-icon{
+	display: inline-block;
+}
+
+footer #footer > .social-icon img {
+	float: left;
+    padding: 10px;
+	width: 20%;
+}
+
+footer nav ul a {
+   color: #f6eee4;
+}
+
+footer nav ul a:hover {
+   text-decoration: underline;
+}
+
+footer::after {
+   display: table;
+   content: "";
+   clear: both;
+}
+@media screen and (min-width: 700px), print {
+ 
+.grid{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 20px;
+}

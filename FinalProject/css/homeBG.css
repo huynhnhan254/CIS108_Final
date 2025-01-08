@@ -1,0 +1,65 @@
+/*
+	Your name: Ngoc Nhan Huynh
+	File Name: homeBG.css
+	Date: 03/02/2023
+*/
+.homeBG{	
+
+	background-image: url("../images/home.png");
+	
+/* Center and scale the background */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.hide{
+	display: none;
+}
+
+/* Style rules for navbar*/
+.Nav{
+	background: rgba(0,0,0,0.8);
+	height: 45px;
+	z-index: 300;
+	position: sticky;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.Nav nav{
+	width: 1000px;
+	margin: auto;
+	padding: 0px;
+	height: 100%;
+}
+
+nav .homeNav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+	list-style: none;
+}
+
+nav .homeNav li a{
+	color: #f6eee4;
+	text-decoration: none;
+	font-size: 14px;
+	opacity: 0.8;
+	transition: opacity 400ms;
+}
+nav .homeNav: hover {
+	opacity: 1;
+}
+
+.linkLogo{
+	background: url("../images/linklogo.png");
+	display: block;
+	background-position: bottom;
+	height: 45px;
+	background-size: 40px;
+	width: 100px;
+	background-repeat: no-repeat;
+}
